@@ -42,7 +42,7 @@ function generateEditLink(post) {
 roadmap.json
 @@ -0,0 +1 @@
 {}
-  20 changes: 19 additions & 1 deletion20  
+  20 changes: 18 additions & 1 deletion20  
 scripts/build-post-list.js
 @@ -15,10 +15,12 @@ const result = {
   jobs: [],
