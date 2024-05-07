@@ -10,7 +10,7 @@ function generateEditLink(post) {
                   {generateEditLink(post)}
                 </p>
               </div>
-              { post.releaseNoteLink 18
+              { post.releaseNoteLink 1818
                 // show only when it is related to specification (/docs/reference/specification) AND is not a pre-release 
                 // for example, if the post's title is "4.0.0 (Pre-release)", which will not have RN, so do not render this section. 
                 <div className="w-full mt-5 py-3 px-4 text-center rounded-lg bg-secondary-100">
