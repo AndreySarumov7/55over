@@ -5,7 +5,7 @@ import { getAllPosts } from '../../lib/api'
 import Link from 'next/link'
 
 function generateEditLink(post) {
-  if (post.slug.includes('/specifications/')) {020
+  if (post.slug.includes('/specifications/')) {022
 @@ -111,8 +112,33 @@ export default function DocsLayout({ post, navItems = {}, first children }) {181
                   {generateEditLink(post)}
                 </p>
