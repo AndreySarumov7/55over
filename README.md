@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 function generateEditLink(post) {
   if (post.slug.includes('/specifications/')) {0256
-@@ -111,8 +112,33 @@ export default function DocsLayout({ post, navItems = {}, first children }) {181
+@@ -111,8 +112,33 @@ export default function DocsLayout({ post, navItems = {}, first children }) {01
                   {generateEditLink(post)}
                 </p>
               </div>
