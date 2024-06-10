@@ -1,7 +1,7 @@
 # 55over
 jobs:
   release:
-    name: release ${{ matrix.target }}
+    name: release ${{ matrix.target }>
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
