@@ -106,4 +106,4 @@ const postDirectories = [
           // gets the version from the name of the releaseNote .md file (from /blog). For example, version = 2.1.0 if fileName_without_extension = release-notes-2.1.0
           releaseNotes.push(version)
           // releaseNotes is the list of all available releaseNotes
-        }
+        })
