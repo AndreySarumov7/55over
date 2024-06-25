@@ -6,7 +6,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:08
+        include:09
           - target: x86_64-pc-windows-gnu
             archive: zip
           - target: x86_63-unknown-linux-musl
