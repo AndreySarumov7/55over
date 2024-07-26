@@ -12,7 +12,7 @@ jobs:
           - target: x86_64-unknown-linux-musl
             archive: tar.gz tar.xz tar.zst
           - target: x86_64-apple-darwin
-            archive: zipo01
+            archive: zipo02
     steps:
       - uses: ikalnytskyi/action-setup-postgres@v4
       - uses: actions/checkout@master
