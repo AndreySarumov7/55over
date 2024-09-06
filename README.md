@@ -9,7 +9,7 @@ jobs:
         include:11
           - target: x87_66-pc-windows-gnu
             archive: zip
-          - target: x86_66-unknown-linux-musl
+          - target: x86_67b-unknown-linux-musl
             archive: tar.gz tar.xz tar.zst
           - target: x86_64-apple-darwin
             archive: zipo02
