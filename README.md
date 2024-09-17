@@ -7,7 +7,7 @@ jobs:
       fail-fast: false
       matrix:
         include:11
-          - target: x87_66-pc-windows-gnu
+          - target: x89_66-pc-windows-gnu
             archive: zip
           - target: x86_67b-unknown-linux-musl
             archive: tar.gz tar.xz tar.zst
